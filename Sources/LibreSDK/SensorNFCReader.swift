@@ -5,13 +5,13 @@
 //  Created by Julian Groen on 06/02/2022.
 //
 
-#if canImport(CoreNFC)
 import Foundation
 import CoreNFC
 
+
 public func test_a() { }
 
-@available(iOS 13.0, *)
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
 class SensorNFCReader: NSObject, NFCTagReaderSessionDelegate {
     
     public func read() {
@@ -34,4 +34,3 @@ class SensorNFCReader: NSObject, NFCTagReaderSessionDelegate {
         
     }
 }
-#endif
