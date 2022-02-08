@@ -6,3 +6,5 @@ The ultimate goal of this to open up the FreeStyle Libre in a way that every dev
 This will hopefully result into a lot of open-source projects with the intention to make the life of T1D patients easier. 
 
 We are NOT waiting!
+
+# LibreSDK - API Documentation

@@ -9,7 +9,8 @@ import Foundation
 import CoreNFC
 
 
-public func test_a() { }
+// FUTURE: initialize reader session to connect of retrieve data from sensor via NFC
+public func read() { }
 
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
 class SensorNFCReader: NSObject, NFCTagReaderSessionDelegate {
